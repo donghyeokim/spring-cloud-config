@@ -1,0 +1,14 @@
+spring
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:~/test;AUTO_SERVER=TRUE
+    username: sa
+    password:
+
+token:
+  expiration_time: 86400
+  secret: token_ecommerce_changed
+
+gateway:
+  ip: 127.0.0.1
+
